@@ -6,18 +6,15 @@
  * @package Jackjone
  */
 
-
+get_header();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jackjon | WordPress Theme Development</title>
-</head>
-<body>
-    <h1 style="color:green; text-align:center;">WordPress Theme Development</h1>
-</body>
-</html>
+<!-- Start main content area -->
+<div class="main_content">
+    <h1 style="color:green;text-align:center;">WordPress Theme Development</h1>
+</div>
+<!-- End main content -->
+
+
+
+<?php get_footer(); ?>
